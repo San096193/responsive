@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.container{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    background: pink;
+    margin: auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: 50px;
+    background: green;
+}
+.menu{
+    width: 69%;
+    height: 50px;
+    background: gray;
+}
+.cover{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    background: orange;
+}
+.main-content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 70%;
+    height: 300px;
+    background: purple;
+}
+.adv{
+    width: 29%;
+    background: blue;
+}
+.box-other{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.other{
+    width: 24%;
+    height: 200px;
+    background: yellow;
+}
+.footer{
+    width: 100%;;
+    height: 100px;
+    background: red;
+    margin-top: 10px;
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1279px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .adv{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .box-other{
+        display: flex;   
+        flex-wrap: wrap;
+    }
+    .other{
+        width: 49%;
+        height: 150px;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px){
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .adv{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .box-other{
+        display: flex;   
+        flex-wrap: wrap;
+    }
+    .other{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+}
